@@ -4,4 +4,4 @@ from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
 def indexPage(request):
-    return render(request, 'index2.html')
+    return render(request, 'index.html')
